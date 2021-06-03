@@ -1,7 +1,7 @@
 import flask
 from flask import redirect
 from flask import url_for
-from OpenCV_Lesson1_Projects.py import recognise
+from MLv1.py import recognise
 
 face = flask.Flask(__name__)
 def hui(rr):
