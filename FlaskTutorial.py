@@ -1,7 +1,7 @@
 import flask
 from flask import redirect
 from flask import url_for
-from MLv1.py import recognise
+from train.py import recognise
 
 face = flask.Flask(__name__)
 def hui(rr):
